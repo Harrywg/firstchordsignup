@@ -1,4 +1,55 @@
+em {
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(32, 32, 32);
+}
+p {
+  text-align: center;
+}
+body {
+  background-color: lightgrey !important;
+}
+.container {
+}
 #title {
+  margin-right: 25px;
   display: flex;
   justify-content: center;
+}
+
+#header {
+  color: rgb(32, 32, 32);
+  text-align: center;
+  font-weight: 600;
+}
+#main {
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 600px;
+}
+
+#video-size {
+  margin: 50px;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#video-wrap {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+#video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
