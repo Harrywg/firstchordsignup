@@ -37,6 +37,7 @@ p {
 }
 
 #header {
+  margin-top: 10px;
   color: #A09CFA;
   text-align: center;
   font-weight: 600;
